@@ -1,0 +1,19 @@
+print("LOGIN PORTAL")
+
+OG_UID="AYUSH"
+OG_PASSWORD="ayush2006"
+
+UID=input("USERNAME: ")
+PASSWORD=input("PASSWORD: ")
+
+if(OG_UID==UID) and (OG_PASSWORD==PASSWORD):
+    print("CREDENTIALS VERIFIED SUCCESSFULLY.")
+
+elif(OG_UID==UID) and (OG_PASSWORD!=PASSWORD):
+    print("WRONG PASSWORD.")
+
+elif(OG_UID!=UID):
+    print("USERNAME NOT RECOGNISED.")
+
+else:
+    print("INVALID CREDENTIALS.")
